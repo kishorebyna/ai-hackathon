@@ -1,0 +1,7 @@
+IssueType,Column,Row,Problem,ProbableCause,SuggestedFix,DetailedFix
+MissingValue,Age,1,"Age is missing (null)","Data entry error or employee age not recorded","Impute missing value or verify with source","1. Check with HR for correct age 2. If unavailable, impute with department's median age"
+InvalidValue,Salary,2,"Negative salary value (-10000.0)","Data entry error or system glitch","Correct to positive value","1. Verify correct salary with payroll 2. Replace negative with absolute value"
+MissingValue,Salary,3,"Salary is missing (null)","Data not entered or employee unpaid","Verify and input correct salary","1. Check payroll records 2. If unpaid, mark as 0 with comment"
+InvalidValue,Age,4,"Unrealistic age (200 years)","Data entry error (extra zero)","Correct to plausible age","1. Verify actual age from HR records 2. Likely should be 20.0"
+MissingValue,Salary,8,"Salary is missing (null)","Data not entered or employee unpaid","Verify and input correct salary","1. Check payroll records 2. If unpaid, mark as 0 with comment"
+MissingValue,Salary,9,"Salary is missing (null)","Data not entered or employee unpaid","Verify and input correct salary","1. Check payroll records 2. If unpaid, mark as 0 with comment"

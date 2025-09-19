@@ -1,0 +1,7 @@
+Column,MissingValues,UniqueValues,Anomalies
+EmployeeID,0,100,
+Name,0,100,
+Department,9,4,
+Age,20,6,5 values > 100 (possible errors).
+Salary,15,5,17 negative salaries.
+JoiningDate,0,99,
